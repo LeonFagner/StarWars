@@ -1,0 +1,171 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+body{
+    background-image: url('https://img.freepik.com/fotos-premium/um-fundo-preto-com-estrelas-azuis-e-as-palavras-star-wars-nele_916211-962.jpg');
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Star Wars',sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 20px;
+}
+header p:hover {
+    color: gold;
+
+}
+h2 {
+    color: gold;
+}
+.logo {
+    height: 100px;
+    width: 150px;
+}
+
+.main-container{
+    display: flex;
+     align-items: center;
+     flex-direction:column;
+     width: 100%;
+     padding: 20px  0;
+ }
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    column-gap: 20px;
+    row-gap: 10px;
+    padding: 0 100px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+    outline: none;
+    transition: 0.3s;
+    
+
+}
+
+button:hover {
+    background-color: #000;
+    color: gold;
+
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+
+.copyrigth {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+.footer-logo{
+    margin: 0%;
+    font-size: 20px;
+}
+
+.ship-cards {
+    width: 300px;
+    height: 400px;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 5px;
+    border: solid 4px gold;
+}
+.ship-cards:hover{
+    transform: scale(1.02);
+}
+.name {
+    font-family: 'Star Wars', sans-serif;
+    color: gold;
+    font-size: 1rem;
+}
+.name-bg {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(124, 128, 106, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+}
+.modal-content {
+    width: 370px;
+    height: 500px;
+    background-color: #0d0d0d;
+    box-shadow: 0px 0px 6px 2px rgba(242,215,0,1);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 30px 10px;
+    align-items: center;
+}
+.modal-menu {
+    width: 300px;
+    height: 500px;
+    background-color: #0d0d0d;
+    box-shadow: 0px 0px 6px 2px rgba(242,215,0,1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 30px 10px;
+    align-items: center;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: 50% 10%;
+    background-size: cover;
+}
